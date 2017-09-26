@@ -68,7 +68,10 @@ var model = {
             "type": { "type": "Edm.String"},
             "text": { "type": "Edm.String"},
             "dismissed": { "type": "Edm.String"},
-            "user_id": { "type": "Edm.String"}         
+            "user_id": { "type": "Edm.String"},
+            "rule_id": { "type": "Edm.String"},
+            "rawdata_id": { "type": "Edm.String"},
+            "triggered_at": { "type": "Edm.DateTime"},
         },  
         'event_rule':{
             "_id": { "type": "Edm.String", key: true},
